@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="gallery">
+            <div class="gallery-inner">
+                <img src="image 1.jpg" alt="Image 1" class="gallery-image">
+                <img src="image 2.jpg" alt="Image 2" class="gallery-image">
+                <img src="image 3.jpg" alt="Image 3" class="gallery-image">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+        <div class="controls">
+            <button id="prev"><span>&#10094;</span></button>
+            <button id="next"><span>&#10095;</span></button>
+        </div>
+        <div class="indicators">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <!-- Add more dots as needed -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
